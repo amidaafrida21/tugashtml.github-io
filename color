@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman dengan Warna</title>
+    <style>
+        body {
+            background-color: #98e5f3; /* Ganti kode warna sesuai keinginan Anda */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Amida Ronsumbre</h1>
+    </header>
+
+    <section id="about-me">
+        <h2>Amida Ronsumbre</h2>
+        <p>Saya adalah mahasiswa angkatan 2023.</p>
+        <p>NIM = 71231051</p>
+        <P>Duta Wacana Christian University </P>
+    </section>
+
+    <!-- Tambahkan bagian lain sesuai kebutuhan -->
+
+</body>
+</html>

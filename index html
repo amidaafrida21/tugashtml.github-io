@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>@ulinanox - 71231051 - My Personal Webpage Amida</title>
+  <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    
+    <iframe src="amida4.jpg" frameborder="1400px"></iframe>
+  <header>
+    <h1>Amida Ronsumbre</h1>
+    <p></p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Amida Ronsumbre</p>
+    <p>Saya adalah mahasiswa angkatan 2023 </p>
+    <p>NIM = 71231051</p>
+    <P>Duta Wacana Christian University </P>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>basketball</li>
+      <li>volly</li>
+      <li>swimming</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: yulirumbewas04@example.com</p>
+    <p>LinkedIn: <linkedin class="com">
+    <in>
+    <amida></amida></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 amida. All rights reserved.</p>
+  </footer>
+
+</body>
+<button id="tombolGantiWarna">tombolGantiWarna </button>
+    <script>
+        const bodyElement = document.body;
+
+        function gantiWarnaRandom() {
+            const warnaList = ["blue", "green", "blue", "white"];
+            const randomIndex = Math.floor(Math.random() * warnaList.length);
+            const warnaRandom = warnaList[randomIndex];
+            bodyElement.style.backgroundColor = warnaRandom;
+        }
+
+        const tombolGantiWarna = document.getElementById("tombolGantiWarna");
+        tombolGantiWarna.addEventListener("click", gantiWarnaRandom);
+    </script>
+</html>
